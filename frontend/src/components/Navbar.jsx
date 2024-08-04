@@ -15,7 +15,7 @@ const Navbar = () => {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" color="secondary">
           <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1,marginLeft:-120 }}>
               BlogApp
             </Typography>
             <Button>

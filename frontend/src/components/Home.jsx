@@ -35,7 +35,7 @@ const View = () => {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', mt: 3 }}>
       {rows.map((item) => (
-        <Card key={item._id} sx={{ maxWidth: 345, mb: 3 }}>
+        <Card key={item._id} sx={{ maxWidth: 345, mb: 3 ,mt:6}}>
           <CardMedia
             component="img"
             height="140"
